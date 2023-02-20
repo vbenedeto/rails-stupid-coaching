@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+.title {
+  margin-bottom: 35px;
+}
+
+#btn-ask {
+  font-weight: bold
+}
+
+.card-user {
+  /* height: 40px; */
+  border-left: 7px solid rgb(216, 209, 209);
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#coach-color {
+  background-color: rgb(255, 241, 249);
+}
+
+.backlink a {
+  text-decoration: none;
+}

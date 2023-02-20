@@ -1,0 +1,18 @@
+<div class="container">
+
+<h1 class="title">Stupid Coaching</h1>
+
+<div class="card-user">
+    <p><%= @answer_from_user %></p>
+    <p>-You</p>
+</div>
+
+<div class="card-user mt-5" id="coach-color">
+    <p><%= @answer_from_coach %></p>
+    <p>-Your coach</p>
+</div>
+
+<div class="backlink mt-5">
+    <%= link_to "Ask another question", ask_path %>
+</div>
+</div>
